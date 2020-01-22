@@ -1,6 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project>
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Nullable Condition="$(Nullable)==''">enable</Nullable>
+    <NoWarn>1608</NoWarn>
   </PropertyGroup>
 </Project>

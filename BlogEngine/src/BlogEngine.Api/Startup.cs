@@ -68,6 +68,7 @@ namespace BlogEngine.Api
 
             app.UseEndpoints(endpoint =>
             {
+                endpoint.MapControllerRoute("post", "{controller=Blog}/{action=Post}/{year}/{month}/{day}/{slug}");
                 endpoint.MapDefaultControllerRoute();
             });
         }
